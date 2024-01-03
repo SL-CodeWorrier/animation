@@ -24,7 +24,8 @@
     height: 100px;
     position: relative;
     right: 0;
-    animation: leftToRight 10s infinite linear;
+    /*animation: leftToRight 10s infinite linear;*/
+    transform-origin: center;
 }
 .car{
     width: 100%;
