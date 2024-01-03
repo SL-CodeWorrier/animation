@@ -82,6 +82,13 @@
     top: 150px;
     animation: cloud 25s linear infinite;
 }
+.bird{
+    width: 50px;
+    position: absolute;
+    top: 50px;
+    left: -150px;
+    animation: bird 10s linear infinite;
+}
 .line{
     width: 100%;
     border: 5px dashed white;
@@ -96,6 +103,16 @@
         right: 1600px;
     }
 }
+
+@keyframes bird {
+    from{
+        left: -150px;
+    }
+    to{
+        left: 1600px;
+    }
+}
+
 @keyframes forwardWheel {
     from{
         transform: rotate(0);
@@ -116,6 +133,8 @@
         left: calc(100% - 100px)
     }
 }
+
+
 
 
 
